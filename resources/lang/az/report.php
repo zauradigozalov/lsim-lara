@@ -1,0 +1,22 @@
+<?php
+return array(
+    '100' => 'SMS göndərilmək üçün sıradadır',
+    '101' => 'SMS uğurla çatdırılıb',
+    '102' => 'SMS göndərilib, ancaq çatdırılmayıb',
+    '103' => 'SMS üçün göndərilmə müddəti keçib',
+    '104' => 'SMS geri qaytarılıb',
+    '105' => 'SMS göndərişi ləğv edilib',
+    '106' => 'Error',
+    '107' => 'Ümumi xəta (SMS provayderi ilə əlaqə saxlayın)',
+    '-100' => 'Doğru olmayan açar',
+    '-101' => 'SMS üçün mətn həddən çox böyükdür',
+    '-102' => 'Doğru olmayan nömrə formatı',
+    '-103' => 'Doğru olmayan göndərici adı',
+    '-104' => 'Kifayət qədər balans yoxdur',
+    '-105' => 'Nömrə qara siyahıdadır',
+    '-106' => 'Doğru olmayan tranzaksiya nömrəsi',
+    '-107' => 'IP ünvan üçün icazə verilmir',
+    '-108' => 'Doğru olmayan kombinasiya',
+    '-109' => 'Doğru olmayan sistem məlumatları',
+    '-500' => 'Daxili xəta',
+);

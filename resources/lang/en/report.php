@@ -1,0 +1,22 @@
+<?php
+return array(
+    '100' => 'In queue',
+    '101' => 'Delivered',
+    '102' => 'Undelivered',
+    '103' => 'Expired',
+    '104' => 'Rejected',
+    '105' => 'Cancelled',
+    '106' => 'Error',
+    '107' => 'Unknown(contact with provider)',
+    '-100' => 'Invalid key',
+    '-101' => 'Text more than allowed length',
+    '-102' => 'Wrong number format',
+    '-103' => 'Invalid sender name',
+    '-104' => 'Insufficient balance',
+    '-105' => 'Number in black list',
+    '-106' => 'Invalid transaction id',
+    '-107' => 'IP address not allowed',
+    '-108' => 'Invalid hash',
+    '-109' => 'No host',
+    '-500' => 'Internal error',
+);

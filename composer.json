@@ -1,0 +1,39 @@
+{
+    "name": "zauradigozalov/lsim-lara",
+    "description": "Laravel package for Azerbaijani SMS provider - LSIM",
+    "keywords": [
+        "lsim",
+        "laravel"
+    ],
+    "homepage": "https://github.com/zauradigozalov/lsim-lara",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zaur Adigozalov",
+            "email": "zaur_info@mail.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2.5",
+        "illuminate/config": "^5.5 || ^6 || ^7 || ^8",
+        "illuminate/database": "^5.5 || ^6 || ^7 || ^8",
+        "illuminate/support": "^5.5 || ^6 || ^7 || ^8",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "zauradigozalov\\LsimSms\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "zauradigozalov\\LsimSms\\LsimServiceProvider"
+            ],
+            "aliases": {
+                "LsimSms": "zauradigozalov\\LsimSms\\Facades\\LsimFacade"
+            }
+        }
+    }
+}
